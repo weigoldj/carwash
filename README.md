@@ -1,24 +1,22 @@
 # README
+Car wash test created by Linux Academy.  Recieved this test June 2017
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You are running a car wash.  Here are the rules.
 
-Things you may want to cover:
+* You must use Ruby on Rails
 
-* Ruby version
+* Your car wash accepts cars and trucks
 
-* System dependencies
+* You charge $5 for cars
 
-* Configuration
+* You charge $10 for trucks
 
-* Database creation
+* Your car wash charges $2 extra if the truck has mud in the bed
 
-* Database initialization
+* Your car wash does not accept truck with the bed let down
 
-* How to run the test suite
+* If a vehicle comes in a second time, they get 50% off.
 
-* Services (job queues, cache servers, search engines, etc.)
+* If the license plat equals 1111111, the vehicle is stolen and does not get a car wash
 
-* Deployment instructions
-
-* ...
+* store a transaction history of at least 10 vehicles.
