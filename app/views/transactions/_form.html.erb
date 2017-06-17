@@ -18,7 +18,8 @@
   
   <div class="field">
     <%= f.label :vehicle_type %>
-    <%= f.text_field :vehicle_type %>
+    <%= f.select :vehicle_type, options_for_select(Transaction::VEHICLES) %>
+    
   </div>
   
   <div class="field">
