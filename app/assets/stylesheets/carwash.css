@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333
+}
+
+p {
+    padding: 0px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 800px;
+}
+
+#header {
+    float: left;
+    height: 60px;
+    width: 800px;
+    font-family: 'Dancing Script';
+    text-align: center;
+    padding-top:25px;
+    overflow-y: hidden;
+    font-size: 55px;
+    color:#ff0099;
+    background: #000000;
+}
+
+#content {
+    float: left;
+    background: #FFFFFF;
+    width: 800px;
+}
+
+#footer {
+    height: 20px;
+    width: 800px;
+    font-size: 9px;
+    background: #000000;
+    color:#ff0099;
+    clear: both;
+}
+
