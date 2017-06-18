@@ -1,6 +1,6 @@
 class TransactionsController < ApplicationController
   before_action :set_transaction, only: [:show, :edit, :update, :destroy]
-
+    
   # GET /transactions
   # GET /transactions.json
   def index
@@ -25,7 +25,7 @@ class TransactionsController < ApplicationController
   # POST /transactions.json
   def create
     @transaction = Transaction.new(transaction_params)
-
+    
     respond_to do |format|
       if @transaction.save
         format.html { redirect_to @transaction, notice: 'Transaction was successfully created.' }
@@ -69,6 +69,6 @@ class TransactionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def transaction_params
-      params.require(:transaction).permit(:license_plate, :vehicle_type, :mud, :down, :cost)
+      params.require(:transaction).permit(:license_plate, :vehicle_type, :mud_in_bed, :bed_is_down, :cost)
     end
 end
